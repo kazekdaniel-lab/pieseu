@@ -155,6 +155,7 @@ section{padding:94px 0}
 .cat-feat .feat-price b{font-family:'Baloo 2';font-size:21px;color:var(--mint)}
 .feat-jars{display:flex;flex-shrink:0;align-items:flex-end;filter:drop-shadow(0 24px 32px rgba(0,0,0,.32))}
 .feat-jars svg{width:162px}
+.feat-jars img{width:215px;height:auto;display:block}
 .feat-jars svg:nth-child(2){margin-left:-52px;width:136px;margin-bottom:18px}
 .cat-tile{background:#fff;border-radius:24px;padding:28px;transition:.25s;display:flex;flex-direction:column;box-shadow:0 4px 0 rgba(34,26,74,.04)}
 .cat-tile:hover{transform:translateY(-6px);box-shadow:0 22px 46px rgba(34,26,74,.1)}
