@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pieseu.pl/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pieseu.pl/sklep.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pieseu.pl/produkty/trawienie-i-jelita.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/spokoj-i-wyciszenie.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/siersc-i-skora.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/odpornosc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/stawy-i-mobilnosc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/energia-i-witalnosc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/produkty/serce-i-krazenie.html</loc><priority>0.8</priority></url>
+  <url><loc>https://pieseu.pl/regulamin.html</loc><priority>0.3</priority></url>
+  <url><loc>https://pieseu.pl/polityka-prywatnosci.html</loc><priority>0.3</priority></url>
+  <url><loc>https://pieseu.pl/polityka-cookies.html</loc><priority>0.3</priority></url>
+  <url><loc>https://pieseu.pl/dostawa-i-zwroty.html</loc><priority>0.4</priority></url>
+</urlset>
