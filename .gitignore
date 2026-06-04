@@ -6,3 +6,11 @@ assets/img/miarka_orig-Photoroom.png
 assets/img/personalizowany
 *.zip
 pieseu_6_osobnych_grafik/
+
+# pliki zrodlowe grafik (tresc zyje w plikach slugow)
+assets/img/balans.png
+assets/img/brzuch.png
+assets/img/ruch.png
+assets/img/siersc.png
+assets/img/spokój.png
+assets/img/personalizowany

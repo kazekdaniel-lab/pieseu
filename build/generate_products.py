@@ -26,7 +26,7 @@ DOSE_ROWS = [
 # kolory wg palety :root
 PRODUCTS = [
     {
-        "slug": "trawienie-i-jelita", "name": "Trawienie i jelita",
+        "slug": "trawienie-i-jelita", "name": "Psi Brzuch", "concern": "Trawienie i jelita",
         "panel": "var(--lav-soft)", "acc": "var(--lav)",
         "price": "69",
         "default_tier": "do 5 kg",
@@ -51,7 +51,7 @@ PRODUCTS = [
         ],
     },
     {
-        "slug": "spokoj-i-wyciszenie", "name": "Spokój i wyciszenie",
+        "slug": "spokoj-i-wyciszenie", "name": "Psi Spokój", "concern": "Spokój i wyciszenie",
         "panel": "#F6E9DC", "acc": "#E0A878",
         "price": "69",
         "default_tier": "5-10 kg",
@@ -76,7 +76,7 @@ PRODUCTS = [
         ],
     },
     {
-        "slug": "siersc-i-skora", "name": "Sierść i skóra",
+        "slug": "siersc-i-skora", "name": "Psia Sierść", "concern": "Sierść i skóra",
         "panel": "var(--pink-soft)", "acc": "var(--pink)",
         "price": "69",
         "default_tier": "10-15 kg",
@@ -101,7 +101,7 @@ PRODUCTS = [
         ],
     },
     {
-        "slug": "odpornosc", "name": "Odporność",
+        "slug": "odpornosc", "name": "Psia Odporność", "concern": "Odporność",
         "panel": "var(--mint-soft)", "acc": "var(--mint)",
         "price": "69",
         "default_tier": "15-25 kg",
@@ -126,7 +126,7 @@ PRODUCTS = [
         ],
     },
     {
-        "slug": "stawy-i-mobilnosc", "name": "Stawy i mobilność",
+        "slug": "stawy-i-mobilnosc", "name": "Psi Ruch", "concern": "Stawy i mobilność",
         "panel": "#F1E7D6", "acc": "#C9A05B",
         "price": "79",
         "default_tier": "25-30 kg",
@@ -151,53 +151,28 @@ PRODUCTS = [
         ],
     },
     {
-        "slug": "energia-i-witalnosc", "name": "Energia i witalność",
+        "slug": "psi-balans", "name": "Psi Balans", "concern": "Codzienna równowaga",
         "panel": "var(--blue-soft)", "acc": "#5BA8E0",
         "price": "79",
-        "default_tier": "30-40 kg",
-        "tagline": "Więcej energii i lepsza wydolność",
-        "lead": "Mieszanka dla psów, którym brakuje werwy - wspiera metabolizm, wydolność i regenerację. Dla psów pracujących, sportowych i w rekonwalescencji.",
-        "bullets": ["Więcej energii na co dzień", "Lepsza wydolność i regeneracja", "Wsparcie metabolizmu"],
-        "tldr": ["L-karnityna + B-kompleks + koenzym Q10", "Dla psów pracujących, sportowych i w rekonwalescencji", "30 porcji · proszek · od 79 zł/mies."],
+        "default_tier": "10-15 kg",
+        "tagline": "Codzienna równowaga i dobra forma",
+        "lead": "Wszechstronne wsparcie na każdy dzień - równowaga odporności, trawienia i układu nerwowego w jednej miarce. Dla psów, które potrzebują ogólnego wzmocnienia i stabilnej formy przez cały rok.",
+        "bullets": ["Codzienna równowaga organizmu", "Wsparcie odporności i trawienia", "Stabilna forma i samopoczucie"],
+        "tldr": ["Witaminy + probiotyk + omega-3 + adaptogeny", "Ogólne wsparcie na co dzień, dla każdego psa", "30 porcji · proszek · od 79 zł/mies."],
         "ingredients": [
-            ("L-karnityna", "150 mg", "Transport kwasów tłuszczowych - energia z tłuszczu."),
-            ("Witaminy B-kompleks", "20 mg", "Klucz do metabolizmu energetycznego."),
-            ("Koenzym Q10", "30 mg", "Energia na poziomie komórkowym (mitochondria)."),
-            ("Żeń-szeń", "80 mg", "Adaptogen wspierający wydolność i regenerację."),
-            ("Magnez", "40 mg", "Praca mięśni i przewodnictwo nerwowe."),
-            ("Żelazo + miedź", "12 mg", "Transport tlenu i dotlenienie mięśni."),
+            ("Kompleks witamin (A, D, E, B)", "25 mg", "Pokrywa codzienne potrzeby i uzupełnia dietę."),
+            ("Probiotyk (3 mld CFU)", "100 mg", "Równowaga jelit i wsparcie odporności."),
+            ("Omega-3 (olej z łososia)", "400 mg", "Skóra, sierść, stawy i serce - wszechstronnie."),
+            ("Magnez", "40 mg", "Spokojny układ nerwowy i praca mięśni."),
+            ("Ashwagandha (adaptogen)", "80 mg", "Pomaga organizmowi radzić sobie ze stresem."),
+            ("Mikroelementy (cynk, selen)", "16 mg", "Wsparcie odporności i regeneracji."),
         ],
-        "signs": ["apatia i ospałość", "psy pracujące", "psy sportowe", "rekonwalescencja", "spadek kondycji", "upalne dni"],
-        "med": True,
+        "signs": ["ogólne wzmocnienie", "pies w słabszej formie", "rekonwalescencja", "zmiana sezonu", "wsparcie na co dzień", "młode i seniory"],
+        "med": False,
         "faq": [
-            ("Czy to „energetyk” dla psa?", "Nie w sensie pobudzenia. Składniki wspierają metabolizm i wydolność, dzięki czemu pies ma więcej naturalnej energii - bez nerwowości i „zrywów”."),
-            ("Dla jakich psów się nadaje?", "Dla psów aktywnych, pracujących i sportowych oraz w rekonwalescencji. U psów apatycznych warto najpierw wykluczyć przyczyny chorobowe u weterynarza."),
-            ("Czy podawać przed wysiłkiem?", "Najlepiej stosować regularnie. Efekt wydolnościowy buduje się przez kilka tygodni, nie działa jak doraźny zastrzyk energii."),
-        ],
-    },
-    {
-        "slug": "serce-i-krazenie", "name": "Serce i krążenie",
-        "panel": "#FBE3EC", "acc": "#E8719C",
-        "price": "89",
-        "default_tier": "powyżej 40 kg",
-        "tagline": "Zdrowe serce i prawidłowe krążenie",
-        "lead": "Tauryna, L-karnityna i koenzym Q10 wspierające pracę mięśnia sercowego i krążenie - szczególnie u dużych ras predysponowanych i u seniorów. Wsparcie wydolności i wytrzymałości.",
-        "bullets": ["Wsparcie pracy serca", "Prawidłowe krążenie", "Wydolność i wytrzymałość"],
-        "tldr": ["Tauryna + L-karnityna + koenzym Q10 + omega-3", "Dla dużych ras predysponowanych i seniorów", "30 porcji · proszek · od 89 zł/mies."],
-        "ingredients": [
-            ("Tauryna", "500 mg", "Aminokwas kluczowy dla mięśnia sercowego."),
-            ("L-karnityna", "250 mg", "Energia dla pracującego serca."),
-            ("Koenzym Q10", "50 mg", "Wsparcie energetyczne i antyoksydacyjne serca."),
-            ("Omega-3 (EPA/DHA)", "500 mg", "Wspiera krążenie i działa przeciwzapalnie."),
-            ("Magnez", "50 mg", "Prawidłowy rytm i praca mięśnia sercowego."),
-            ("Głóg (ekstrakt)", "100 mg", "Tradycyjne wsparcie krążenia i serca."),
-        ],
-        "signs": ["duże rasy predysponowane", "pies senior", "spadek wydolności", "szybsze męczenie", "wsparcie profilaktyczne", "rasy z ryzykiem DCM"],
-        "med": True,
-        "faq": [
-            ("Czy to lek na chore serce?", "Nie. To suplement wspierający kondycję serca i krążenia. Przy objawach takich jak kaszel, omdlenia, duszność czy nietolerancja wysiłku konieczna jest pilna diagnostyka kardiologiczna u weterynarza."),
-            ("Dlaczego tauryna?", "Niedobór tauryny wiąże się z kardiomiopatią rozstrzeniową (DCM), zwłaszcza u dużych ras. Suplementacja wspiera prawidłową pracę mięśnia sercowego."),
-            ("Czy mogę łączyć z lekami kardiologicznymi?", "Tylko po konsultacji z weterynarzem prowadzącym. Niektóre składniki mogą wchodzić w interakcje z lekami - bezpieczeństwo zawsze potwierdza lekarz."),
+            ("Czym różni się Psi Balans od pozostałych formuł?", "To wszechstronne wsparcie ogólne - łączy podstawy odporności, trawienia i kondycji w jednej miarce. Gdy pies nie ma jednego konkretnego problemu, a chcesz po prostu wzmocnić go na co dzień, to dobry wybór."),
+            ("Dla jakiego psa się nadaje?", "Dla każdego - młodego, dorosłego i seniora. To bezpieczna, codzienna baza; przy konkretnym wyzwaniu (np. stawy, skóra) warto wybrać formułę dedykowaną albo dobrać skład w quizie."),
+            ("Czy mogę podawać przez cały rok?", "Tak, Psi Balans jest pomyślany do codziennego, całorocznego stosowania jako ogólne wsparcie."),
         ],
     },
 ]
@@ -246,9 +221,9 @@ def footer(base):
       </div>
       <div><h5>Sklep</h5>
         <a href="{base}sklep.html">Wszystkie produkty</a>
-        <a href="{base}produkty/stawy-i-mobilnosc.html">Stawy i mobilność</a>
-        <a href="{base}produkty/trawienie-i-jelita.html">Trawienie i jelita</a>
-        <a href="{base}produkty/siersc-i-skora.html">Sierść i skóra</a>
+        <a href="{base}produkty/stawy-i-mobilnosc.html">Psi Ruch</a>
+        <a href="{base}produkty/trawienie-i-jelita.html">Psi Brzuch</a>
+        <a href="{base}produkty/siersc-i-skora.html">Psia Sierść</a>
       </div>
       <div><h5>Pomoc</h5>
         <a href="{base}dostawa-i-zwroty.html">Dostawa i zwroty</a>
@@ -360,7 +335,7 @@ def build_product(p):
         rel_cards += (
             f'<div class="pcard" style="--panel:{r["panel"]};--acc:{r["acc"]}">'
             f'<a class="pcard-link" href="{r["slug"]}.html">'
-            f'<div class="pcard-top" style="background:var(--panel);padding:18px"><img src="../assets/img/{r["slug"]}.png" alt="Opakowanie pieseu {r["name"]}" style="width:100%;height:auto;display:block;border-radius:12px"></div>'
+            f'<div class="pcard-top" style="background:#F3EDF1;padding:0;min-height:0"><img src="../assets/img/{r["slug"]}.png" alt="Opakowanie pieseu {r["name"]}" style="width:100%;height:auto;display:block"></div>'
             f'<div class="pcard-body"><h4>{r["name"]}</h4><div class="pcard-foot"><span class="pr">od {r["price"]} zł <small>/ mies.</small></span><span class="pcard-btn">Zobacz →</span></div></div>'
             f'</a></div>'
         )
@@ -426,7 +401,7 @@ def build_product(p):
       <img src="../assets/img/{slug}.png" alt="Opakowanie pieseu {p['name']} - spersonalizowana mieszanka dla psa, 30 porcji, proszek" width="360" height="450">
     </div>
     <div>
-      <div class="eyebrow pdp-eyebrow">Spersonalizowany suplement dla psa</div>
+      <div class="eyebrow pdp-eyebrow">{p['concern']} · suplement dla psa</div>
       <h1>{p['name']}</h1>
       <p class="pdp-lead">{p['lead']}</p>
       <div class="pdp-tldr">
@@ -509,7 +484,7 @@ def build_catalog():
         cards += (
             f'<div class="pcard" style="--panel:{p["panel"]};--acc:{p["acc"]}">'
             f'<a class="pcard-link" href="produkty/{p["slug"]}.html">'
-            f'<div class="pcard-top" style="background:var(--panel);padding:20px"><img src="assets/img/{p["slug"]}.png" alt="Opakowanie pieseu {p["name"]} - suplement dla psa, 30 porcji" style="width:100%;height:auto;display:block;border-radius:14px"></div>'
+            f'<div class="pcard-top" style="background:#F3EDF1;padding:0;min-height:0"><img src="assets/img/{p["slug"]}.png" alt="Opakowanie pieseu {p["name"]} - suplement dla psa, 30 porcji" style="width:100%;height:auto;display:block"></div>'
             f'<div class="pcard-body"><h4>{p["name"]}</h4><p>{p["tagline"]}.</p>'
             f'<div class="pcard-feat"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>30 porcji · proszek</div>'
             f'<div class="pcard-foot"><span class="pr">od {p["price"]} zł <small>/ mies.</small></span><span class="pcard-btn">Zobacz →</span></div>'
