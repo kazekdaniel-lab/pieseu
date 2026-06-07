@@ -15,3 +15,5 @@ assets/img/siersc.png
 assets/img/spokój.png
 assets/img/personalizowany
 assets/img/slaider_orig.jpeg
+build/__pycache__/
+*.pyc
